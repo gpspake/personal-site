@@ -65,6 +65,9 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
 
+      - name: Show generated CSS files
+        run: ls -R public/css || true
+
       # 8️⃣  Upload the built site
       - uses: actions/upload-pages-artifact@v3
         with:
