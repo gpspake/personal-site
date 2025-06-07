@@ -30,18 +30,20 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      # 2️⃣  Node & automatic PNPM store caching
-      - uses: actions/setup-node@v4         # installs Node & sets up cache
+      # 1️⃣  Install the pnpm CLI first
+      - uses: pnpm/action-setup@v4          # installs pnpm
         with:
-          node-version: 20
-          cache: 'pnpm'                     # cache ~/.pnpm-store
-
-      # 3️⃣  Install pnpm **and** run `pnpm install`
-      - uses: pnpm/action-setup@v4          # official wrapper :contentReference[oaicite:0]{index=0}
-        with:
-          version: 9                        # or “latest”
+          version: 9                        # or "latest"
+          # optional: run the install for you
           run_install: |
             - args: [--frozen-lockfile, --strict-peer-dependencies]
+
+      # 2️⃣  Now that pnpm exists, Node can enable pnpm-store caching
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'                     # works because pnpm is on PATH
+
 
       # 4️⃣  Make local CLIs (tailwindcss) visible to Hugo
       - run: echo "${{ github.workspace }}/node_modules/.bin" >> "$GITHUB_PATH"
