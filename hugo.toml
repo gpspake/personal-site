@@ -11,6 +11,10 @@ target = "css"
 watch = ["hugo_stats.json"]
 [menu]
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [[menu.main]]
 identifier = "about"
 name = "About"
