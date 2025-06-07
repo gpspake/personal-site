@@ -57,6 +57,10 @@ jobs:
       # 6️⃣  (Optional) Install Dart Sass if the theme needs it
       - run: sudo snap install dart-sass
 
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       # 7️⃣  Build the site
       - run: |
           hugo \
