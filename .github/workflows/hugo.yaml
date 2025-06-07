@@ -63,6 +63,18 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
+      - name: Install Node (adds npm/npx)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20          # or whatever you prefer
+          cache: 'npm'              # speeds up subsequent runs
+
+      - name: Install JS dependencies
+        run: npm ci
+      # 👇 expose ./node_modules/.bin so Hugo can find “tailwindcss”
+      - name: Add local node bin to PATH
+        run: echo "$(npm bin)" >> "$GITHUB_PATH"
+
       - name: Build with Hugo
         run: |
           hugo \
