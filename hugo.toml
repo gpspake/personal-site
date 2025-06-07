@@ -2,3 +2,51 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'tailwind'
+[build]
+writeStats = true
+[[build.cachebusters]]
+source = "hugo_stats\\.json"
+target = "css"
+[server]
+watch = ["hugo_stats.json"]
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+pageRef = "/about"
+weight = 5
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+pageRef = "/projects"
+weight = 10
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+pageRef = "/blog"
+weight = 20
+
+
+[taxonomies]
+category = "categories"
+tag      = "tags"
+roles    = "roles"
+
+[params.sidebar.taxonomiesBySection]
+blog     = ["categories", "tags"]
+projects = ["roles"]
+
+[params.header]
+sticky = "true"
+
+[params.footer]
+since = false
+poweredby = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true   # ← allow raw HTML inside Markdown

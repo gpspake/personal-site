@@ -1,0 +1,50 @@
+{{ define "head" }}
+{{ partial "jsonld.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="w-full max-w-4xl lg:max-w-5xl">
+
+  <h1 class="text-3xl my-6 font-extralight text-slate-800 dark:text-white">
+    {{ .Title | .RenderString }}
+  </h1>
+
+  <article class="w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content py-6">
+    {{ .Content | safeHTML }}
+  </article>
+
+
+  <div class="pt-4">
+    <a href="#"
+       class="inline-flex items-center align-middle            <!-- ← add -->
+          px-3 py-2 font-medium text-white
+          bg-blue-900 hover:bg-gradient-to-bl
+          focus:outline-none focus:ring-2 focus:ring-offset-2
+          focus:ring-blue-300 dark:focus:ring-blue-800 mr-2">
+      RÉSUMÉ
+    </a>
+
+    <!-- LinkedIn button -->
+    <a href="https://www.linkedin.com/in/georgespake/"
+       target="_blank" rel="noopener noreferrer"
+       class="inline-flex items-center align-middle            <!-- ← add -->
+          gap-2 px-3 py-2 font-medium text-white
+          bg-blue-900 hover:bg-gradient-to-bl
+          focus:outline-none focus:ring-2 focus:ring-offset-2
+          focus:ring-blue-300 dark:focus:ring-blue-800">
+
+      <svg xmlns="http://www.w3.org/2000/svg"
+           class="h-5 w-5 fill-current" viewBox="0 0 448 512" aria-hidden="true">
+        <path d="M100.3 448H7V148.9h93.3zM53.8 108.1C24.1 108.1 0 83.9 0 54.3S24.1.6 53.8.6
+             s53.8 24.2 53.8 53.7-24.2 53.8-53.8 53.8zM447.9 448h-92.8V302.4
+             c0-34.7-.7-79.4-48.4-79.4-48.4 0-55.8 37.8-55.8 76.8V448h-92.8V148.9
+             h89.1v40.8h1.3c12.4-23.5 42.6-48.4 87.7-48.4 93.8 0 111.1 61.8
+             111.1 142.3V448z"/>
+      </svg>
+
+      <span>LinkedIn</span>
+    </a>
+  </div>
+
+</div>
+{{ end }}

@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev-hugo": "hugo server --gc --themesDir=./themes",
+    "dev-tailwind": "npx @tailwindcss/cli -i assets/css/main.css -o assets/css/index.css --watch",
+    "dev": "hugo server --gc --themesDir=./themes --disableFastRender --noHTTPCache"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "@tailwindcss/typography": "^0.5.13",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.17"
+  }
+}

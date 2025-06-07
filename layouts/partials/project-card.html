@@ -1,0 +1,75 @@
+{{/* layouts/partials/project-card.html */}}
+
+{{/* The current page (a single project) is passed in as "." */}}
+{{ $img := .Resources.GetMatch .Params.image }}
+{{ $imgRight := eq (lower .Params.imageSide) "right" }}
+{{ $noShadow  := .Params.noShadow }}
+
+<article class="h-full lg:h-80 flex flex-col lg:flex-row bg-white dark:bg-neutral-950/70 shadow overflow-hidden">
+
+  <!-- Image -->
+  <div class="relative h-80 lg:h-full lg:w-1/3 flex-none overflow-hidden
+              {{ if $imgRight }}lg:order-2{{ end }}">
+    {{ with $img }}
+    <img src="{{ .RelPermalink }}"
+         alt="{{ $.Title }}"
+         class="absolute inset-0 w-full h-full object-cover object-top" />
+    {{ end }}
+
+    <!-- right-edge glow (unchanged) -->
+    {{ if not $noShadow }}
+    <div class="pointer-events-none absolute inset-y-0 w-10
+                  {{ if $imgRight }}
+                    lg:left-0 lg:bg-gradient-to-r          <!-- image on right: glow on left -->
+                  {{ else }}
+                    right-0 lg:bg-gradient-to-l            <!-- image on left: glow on right -->
+                  {{ end }}
+                  from-black/40 from-0%
+                  via-black/20  via-25%
+                  via-black/5   via-40%
+                  to-transparent to-100%">
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Content -->
+  <div class="p-6 flex flex-col flex-1 space-y-4
+              {{ if $imgRight }}lg:order-1{{ end }}">
+    <header>
+      <h3 class="text-slate-600 dark:text-slate-300 text-xl font-semibold">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h3>
+
+      {{/* roles list unchanged … */}}
+      {{ with .Page.GetTerms "roles" }}
+      <p class="text-sm font-light tracking-wide text-slate-500 dark:text-slate-200">
+        {{ range $idx, $term := . }}
+        {{ if $idx }}, {{ end }}
+        <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+        {{ end }}
+      </p>
+      {{ end }}
+    </header>
+
+    <div class="h-[5px] w-[70px] bg-blue-400 rounded"></div>
+
+    {{ with .Summary }}
+    <div class="font-extralight text-slate-500 dark:text-slate-300">
+      {{ . | $.Page.RenderString }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.links }}
+    <div class="mt-auto flex flex-wrap items-center gap-2">
+      {{ range . }}
+      <a href="{{ .url }}"
+         class="inline-flex items-center px-3 py-2 text-xs font-medium text-white
+                    bg-blue-900 hover:bg-gradient-to-bl focus:outline-none focus:ring-4
+                    focus:ring-blue-300 dark:focus:ring-blue-800">
+        {{ .label }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>
