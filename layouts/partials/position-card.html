@@ -1,31 +1,45 @@
 {{/* The current page (a single position) is passed in as "." */}}
 {{ $img := .Resources.GetMatch .Params.image }}
 
-<article class="h-full flex flex-col lg:flex-row bg-white dark:bg-neutral-950/70 shadow overflow-hidden">
+{{/* layouts/partials/position-card.html */}}
 
-  <!-- Image -->
-  <div class="relative lg:h-full lg:w-1/6 flex-none overflow-hidden">
-    {{ with $img }}
-    <img src="{{ .RelPermalink }}"
-         alt="{{ $.Title }}"
-         class="absolute inset-0 w-full h-full object-cover object-top" />
-    {{ end }}
-  </div>
+{{ $img := .Resources.GetMatch .Params.image }}
 
-  <!-- Content -->
-  <div class="p-6 flex flex-col flex-1 space-y-4">
-    <header>
-      <h3 class="text-slate-600 dark:text-slate-300 text-xl font-semibold">
+{{ $img := .Resources.GetMatch .Params.image }}
+
+<article class="shadow ring-1 ring-slate-200 dark:ring-slate-700
+               bg-white dark:bg-neutral-950/70">
+
+  <!-- HEADER (logo + meta) -->
+  <header class="flex gap-4 p-4">
+
+    <!-- fixed-width logo slot (shows empty space if no image) -->
+    <div class="w-28 flex-none">
+      {{ with $img }}
+      <img src="{{ .RelPermalink }}"
+           alt="{{ $.Title }}"
+           class="w-full h-28 object-contain">
+      {{ end }}
+    </div>
+
+    <!-- headline + company + dates -->
+    <div class="flex-1">
+      <h3 class="text-xl font-semibold text-slate-800 dark:text-slate-200">
         {{ .Title }}
       </h3>
-      <div class="text-slate-600 dark:text-slate-300 font-light">
-        <p class="font-normal">{{ .Params.company }}</p>
-        <p>{{ .Params.years }}</p>
-        <p>{{ .Params.duration }}</p>
-      </div>
-    </header>
 
-    <div class="font-extralight text-slate-500 dark:text-slate-300 space-y-2">
+      <div class="mt-1 text-slate-600 dark:text-slate-400 space-y-0.5">
+        {{ with .Params.company  }}<p class="font-normal">{{ . }}</p>{{ end }}
+        {{ with .Params.years    }}<p>{{ . }}</p>{{ end }}
+        {{ with .Params.duration }}<p>{{ . }}</p>{{ end }}
+      </div>
+    </div>
+
+  </header>
+
+  <!-- BODY (indented only on ≥ md) -->
+  <div class="px-4 pb-6 pt-0 md:pl-32">   <!-- 28 w (7 rem) + gap-4 (1 rem) = 32 -->
+    <div class="md:px-4 space-y-2 font-extralight text-slate-500 dark:text-slate-300">
       {{ .Content | safeHTML }}
     </div>
   </div>

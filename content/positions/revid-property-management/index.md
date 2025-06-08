@@ -1,6 +1,7 @@
 ---
 title: Marketing, ITS, Operations, Finance, Leasing
 company: Revid Realty & Property Management
+image: revid.jpg
 years: October 2008 – August 2011
 duration: 2 years 10 months
 weight: 9

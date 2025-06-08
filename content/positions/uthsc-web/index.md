@@ -1,5 +1,6 @@
 ---
 title: Web Services
+image: uthsc.png
 company: University of Tennessee Health Science Center
 years: December 2012 – May 2017
 duration: 5 years 10 months

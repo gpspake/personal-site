@@ -1,5 +1,6 @@
 ---
 title: Web Developer II – E-commerce
+image: autozone.png
 company: AutoZone
 years: May 2017 – June 2018
 duration: 1 year 2 months

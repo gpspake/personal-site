@@ -1,6 +1,7 @@
 ---
 title: 'ITS Customer Technical Support'
 company: 'University of Tennessee Health Science Center'
+image: uthsc.png
 years: 'August 2011 – December 2012'
 duration: '1 year 5 months'
 weight: 8

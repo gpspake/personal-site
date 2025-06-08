@@ -1,5 +1,6 @@
 ---
 title: Web Developer
+image: lensrentals.png
 company: Lensrentals
 years: June 2018 – June 2019
 duration: 1 year 1 month

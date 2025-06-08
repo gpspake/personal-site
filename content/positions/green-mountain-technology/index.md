@@ -1,5 +1,6 @@
 ---
 title: Software Engineer
+image: gmt.png
 company: Green Mountain Technology
 years: July 2019 - November 2021
 duration: 2 years 5 months
