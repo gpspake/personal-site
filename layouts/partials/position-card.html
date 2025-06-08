@@ -1,0 +1,32 @@
+{{/* The current page (a single position) is passed in as "." */}}
+{{ $img := .Resources.GetMatch .Params.image }}
+
+<article class="h-full flex flex-col lg:flex-row bg-white dark:bg-neutral-950/70 shadow overflow-hidden">
+
+  <!-- Image -->
+  <div class="relative lg:h-full lg:w-1/6 flex-none overflow-hidden">
+    {{ with $img }}
+    <img src="{{ .RelPermalink }}"
+         alt="{{ $.Title }}"
+         class="absolute inset-0 w-full h-full object-cover object-top" />
+    {{ end }}
+  </div>
+
+  <!-- Content -->
+  <div class="p-6 flex flex-col flex-1 space-y-4">
+    <header>
+      <h3 class="text-slate-600 dark:text-slate-300 text-xl font-semibold">
+        {{ .Title }}
+      </h3>
+      <div class="text-slate-600 dark:text-slate-300 font-light">
+        <p class="font-normal">{{ .Params.company }}</p>
+        <p>{{ .Params.years }}</p>
+        <p>{{ .Params.duration }}</p>
+      </div>
+    </header>
+
+    <div class="font-extralight text-slate-500 dark:text-slate-300 space-y-2">
+      {{ .Content | safeHTML }}
+    </div>
+  </div>
+</article>
