@@ -13,7 +13,7 @@ slug: quick-html-terminology-reference
 
 It always helps to know what to call things. Someone asked a question about
 html terminology recently and I thought this might be useful to keep around…
-
+<!--more-->
 consider the following markup:
 
 `<div class="my-class" id="my-id"></div>`  

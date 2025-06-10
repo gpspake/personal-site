@@ -23,7 +23,7 @@ The purpose of this talk is to convey how essential NPM, Yarn, Babel, and
 Webpack are to the JavaScript ecosystem; how lucky we are to have them given
 the scope of the problems they solve; and why JavaScript developers should
 prioritize learning and understanding them.
-
+<!--more-->
 Building modern applications with JavaScript does not happen in a vacuum. Even
 some EcmaScript-compliant features need to be compiled to a supported syntax
 using Babel. If you’re building a UI, you might use a library like React; if

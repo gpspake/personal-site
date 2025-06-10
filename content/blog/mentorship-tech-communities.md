@@ -16,7 +16,9 @@ communities has been my single most valuable privilege in the context of my
 career  and fueling my passion for web development. If I had to choose between
 a master’s degree or all of the wisdom I’ve found and friends I’ve made from
 talking to developers at user groups, conferences, and events over the past 5
-years, I might hand over the degree. It’s also been a major part of my
+years, I might hand over the degree.
+<!--more-->
+It’s also been a major part of my
 personal life; if you’re passionate about what you do, there’s nothing that
 compares to building relationships with others who share your passion and
 learning from each other. Picasso said that when art critics get together,

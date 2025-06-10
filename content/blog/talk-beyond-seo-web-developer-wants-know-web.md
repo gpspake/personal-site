@@ -16,7 +16,7 @@ slug: talk-beyond-seo-web-developer-wants-know-web
 Here are the slides for the talk I gave at [Techcamp
 Memphis](http://www.techcampmemphis.org/sessions/beyond-seo-what-your-web-
 developer-wants-you-to-know-about-web-content/) on November 5, 2016
-
+<!--more-->
 _Abstract:  I build websites for a diverse set of clients and the greatest
 challenge I consistently face is not code related; it’s educating clients
 about web content. Many people want to build a website for themselves or their

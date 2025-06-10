@@ -16,7 +16,7 @@ analysis. I decided to see what I could do with it.
 To get started, I installed R using [homebrew](http://brew.sh/) started
 looking in to what sort of packages I could find and stumbled across
 [rCharts](http://rcharts.io/).
-
+<!--more-->
 [rCharts](http://rcharts.io/) "is an R package to create, customize and
 publish interactive javascript visualizations from R using a familiar lattice
 style plotting interface.”

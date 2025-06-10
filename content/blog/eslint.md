@@ -17,6 +17,7 @@ tags:
 - prettier
 author: George Spake
 slug: eslint
+description: Add ESlint, Airbnb’s Style Guides, & Prettier to Create-React-App without Ejecting. Integrate ESlint with your editor.
 ---
 
 **Learn How to Set Up ESlint, Airbnb 's Style Guides, & Prettier using a

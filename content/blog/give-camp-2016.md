@@ -24,7 +24,11 @@ long event where local developers and designers get together to build software
 for non-profit organizations—was held at [CoWork
 Memphis](http://coworkmemphis.com/) in Cooper Young. This marks the event's
 sixth year and the second year I've had the honor of participating as a
-volunteer. Seven non-profit's, including [Volunteer
+volunteer. 
+
+<!--more-->
+
+Seven non-profit's, including [Volunteer
 Odyssey](http://volunteerodyssey.com/), [The Overton Park
 Conservancy](http://www.overtonpark.org/conservancy), and [Citizens to
 Preserve Overton Park](http://www.overtonparkforever.org/), applied for help

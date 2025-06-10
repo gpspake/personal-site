@@ -20,7 +20,7 @@ the most valuable things I’ve done as a web developer and I’m always looking
 for ways to learn more. Diving in to shell scripting has been on the to-do
 list for a while now so here's a case where I had an opportunity to automate a
 simple task with a couple of bash scripts.
-
+<!--more-->
 I backup and restore WordPress installations pretty frequently. Sometimes it’s
 because I’m going to make some change that could dramatically affect the
 installation, like converting to a network install, and I want to make sure

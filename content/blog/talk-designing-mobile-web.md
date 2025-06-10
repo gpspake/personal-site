@@ -16,7 +16,7 @@ slug: talk-designing-mobile-web
 
 Here are the slides for my talk at [Tech Camp
 Memphis](http://techcampmemphis.com/) 2014.
-
+<!--more-->
 **Abstract:**
 
 > Over just a few years, the rise of mobile technology has dramatically

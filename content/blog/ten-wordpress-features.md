@@ -19,7 +19,7 @@ were available right out of the box. Little by little, they all started to
 make sense and I started to utilize them effectively. Now that I am a little
 bit more comfortable, I think it might be helpful to share some of the things
 that I find most important as a web developer using WordPress.  
-
+<!--more-->
 ### 1\. Using the WordPress API and built-in Functions
 
 The WordPress Application Programming Interface (API) is actually comprised of

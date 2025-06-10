@@ -24,7 +24,7 @@ Chattanooga Tennessee. The talk will focus on the experience I had with the
 developed for UTHSC and encourage Higher-Ed tech professionals to consider
 open sourcing their work and to consider open source options when making IT
 decisions.
-
+<!--more-->
 You can read the
 [abstract](http://www2.tntech.edu/itsymposium/abstracts.asp#26) on the THEITS
 website and view the [UTHSC-WPCAS source code on

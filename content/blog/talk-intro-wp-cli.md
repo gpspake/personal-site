@@ -18,7 +18,7 @@ installations and without it, some of the work I do - even as simple as
 updating multiple WordPress sites - would be magnitudes more tedious. This is
 something that everyone developing or maintaining WordPress sites should be
 familiar with.
-
+<!--more-->
 I'll be covering some of the basic functionality it provides as well as how to
 install and update it.
 

@@ -16,6 +16,8 @@ options. I have an existing personal app I've been working on but, until now,
 I've been developing it in Homestead and haven't really put much thought in to
 where I would deploy it.
 
+<!--more-->
+
 The two options I was most interested in were [Digital
 Ocean](https://www.digitalocean.com/) and
 [Heroku](https://dashboard.heroku.com/), both of which I've tinkered around

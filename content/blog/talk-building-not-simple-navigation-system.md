@@ -20,7 +20,7 @@ University of Memphis FedEx Institute of Technology
 
 _As part of a complete redesign, we developed our navigation menus from
 scratch and ran in to quite a few challenges along the way._
-
+<!--more-->
 I've been working on a major redesign at work and even with the help of
 Foundation doing a lot of the heavy lifting, there's still a lot of
 challenging and often hacky fixes that go in to custom frontend development.

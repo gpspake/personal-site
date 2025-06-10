@@ -14,7 +14,7 @@ slug: demystifying-wordpress-plugins
 This post was written to accompany a talk about WordPress plugins at the
 [WordPress Memphis User Group](http://www.meetup.com/WordPress-
 Memphis/events/228629209/), which meets on the first Thursday of every month.
-
+<!--more-->
 ## What are plugins
 
 Chances are, if you've been using WordPress, you're aready familiar with

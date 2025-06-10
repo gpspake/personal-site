@@ -25,6 +25,8 @@ anyone on my network. Here's how I did it.
 Original diagram of home network components and proposed configuration, some
 of the parts shown have not been completed yet.
 
+<!--more-->
+
 ### Objective
 
 There were a number of reasons I took on this project. I have a ton of music

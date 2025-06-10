@@ -16,7 +16,7 @@ slug: talk-rapid-frontend-development-zurb-foundation
 
 Here are the slides for my talk at the [Memphis Web Workers User
 Group](http://memphiswebworkers.com/) on October 10, 2014.
-
+<!--more-->
 **Abstract:**
 
 > Zurb Foundation is the self-proclaimed "advanced responsive front-end

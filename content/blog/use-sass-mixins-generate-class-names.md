@@ -19,7 +19,7 @@ you can do it dynamically by using mixin arguments to generate class names**_
 Here's a neat little trick I used recently. I was working with a simple single
 page form and each page of the form was hidden; I wanted to be able to un-hide
 the form pages based on a parent class that included the page number.
-
+<!--more-->
 Regardless of whether this is the best use-case, it's pretty cool that you can
 use mixins to accept arguments and generate a bunch of class names. Now, if an
 additional page is added to the form, it will only require one line to

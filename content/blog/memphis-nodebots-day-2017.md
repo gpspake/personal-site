@@ -19,7 +19,7 @@ Today marked the first annual Memphis NodeBots event.
 
 "NodeBots Day is world wide event where people learn how to control the
 physical world with JavaScript." - [nodebots.io](http://nodebots.io/#about)
-
+<!--more-->
 Sponsored by [HackMemphis](http://www.hackmemphis.com/nodebots-day/), Memphis
 NodeBots day was a sold out event where attendees built a robot from scratch
 and programmed it with javascript. This event has been several years in the

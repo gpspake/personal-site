@@ -24,7 +24,7 @@ using the VM IP for ssh but I won't go as far as to say that it's wrong to use
 your local IP and forwarded ports. If you want to ssh in to multiple vagrant
 boxes on the same IP, local or otherwise, port forwarding makes that possible
 and PuPHPet makes it really easy to set up._
-
+<!--more-->
 _Regarding the 'vagrant ssh' command in Windows, I'm not sure if it will work.
 By default, if you run vagrant ssh from your vagrant dir in the Windows shell
 you get this:_

@@ -24,7 +24,7 @@ content/uploads/2014/04/screenshot.png)](https://github.com/gpspake/grunterie)
 Having used both Bootstrap and Foundation, I quickly decided that Foundation
 was the framework for me and I use it for everything. It’s really clean, easy
 to work with and I don’t have to fight with it to get what I want.
-
+<!--more-->
 I do a lot of work with WordPress so I spent a good bit of time trying out all
 of the high profile WordPress themes built on Foundation. They all had their
 pros and cons - that’s a post I’m not going to write - but

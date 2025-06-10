@@ -15,9 +15,8 @@ author: George Spake
 slug: responsive-frameworks
 ---
 
-### Working with responsive frameworks can make responsive web design cleaner
-and easier and considerably reduce development time.
-
+### Working with responsive frameworks can make responsive web design cleaner, easier and considerably reduce development time.
+<!--more-->
 The fact that responsive frameworks combine responsive and mobile-first web
 design, CSS pre-processing languages, and other cutting edge trends makes them
 one of my favorite topics to follow in web development.

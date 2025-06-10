@@ -13,7 +13,7 @@ slug: wordcamp-2017
 ---
 
 Slides and speaker notes prepared for a talk at WordCamp Raleigh 2017.
-
+<!--more-->
 ## Old News - Before WordPress
 
 Campus News  

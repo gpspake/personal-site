@@ -19,6 +19,9 @@ Memphis](https://www.givecampmemphis.org/), a weekend long event where tech
 professionals come together to help Memphis non profits solve problems. This
 year, the event coincided with the AIGA Memphis Chapter's [Design for
 Good](https://www.aiga.org/design-for-good) event. This is the fourth year
+
+<!--more-->
+
 I’ve participated in GiveCamp and, with 20 non profits; 30+ projects
 completed; over 125 volunteers; and over 3,000 service hours provided, it was
 the largest GiveCamp yet.

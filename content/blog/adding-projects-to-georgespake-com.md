@@ -13,6 +13,7 @@ tags:
 - redesign
 author: George Spake
 slug: adding-projects-to-georgespake-com
+description: How I added a custom post type to my site to showcase projects I’ve worked on.
 ---
 
 ## What is a custom post type?

@@ -16,7 +16,7 @@ things to keep in mind when designing a logo. Obviously it needs to be eye
 catching and iconic but the designer also needs to consider how the logo will
 fit into various compositions, how it will be used across mediums and how it
 will look in monochrome.
-
+<!--more-->
 When I set out to redesign my logo I struggled to balance all of these
 considerations. I was happy with my previous logo but I had trouble using it
 in certain places because of its shape. There were also some unnecessary

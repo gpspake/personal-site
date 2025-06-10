@@ -17,6 +17,7 @@ Memphis is home to a thriving tech scene and a welcoming community of
 technical experts, enthusiasts, and beginners who you can find on any given
 day of the week at one of the many active [technical
 meetups](https://www.meetup.com/memphis-technology-user-groups/) in town.
+<!--more-->
 User group meetings feature conference quality content delivered by members of
 the Memphis technical community, open discussion, and pizza. All of this is
 totally free and open to anyone who wants to attend.

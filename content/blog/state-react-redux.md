@@ -16,7 +16,7 @@ slug: state-react-redux
 _This brain dump was written with love for a presentation at the Tennessee
 Higher Ed Tech Symposium 2017 and an internally talk for the fine folks I work
 with._
-
+<!--more-->
 Technology is constantly evolving and changing so it's easy to dismiss hype as
 "new hotness." I must hear "There'll be a new thing in 6 months" on a monthly
 basis from skeptics. And they aren't necessarily wrong. While that may be

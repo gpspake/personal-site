@@ -21,6 +21,8 @@ in reference to an html p tag. wpautop is a wordpress function that "Changes
 double line-breaks in the text into HTML paragraphs (<p>…</p>)." You can read
 more about it in the WordPress codex.
 
+<!--more--> 
+
 Most of the content on WordPress sites is added and updated through the
 backend interface with TinyMCE, a robust wysywig text editor. Because
 WordPress is designed to be used by anyone, and not just web developers,

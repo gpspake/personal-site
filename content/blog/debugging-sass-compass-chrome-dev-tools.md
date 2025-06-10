@@ -12,6 +12,7 @@ tags:
 - sourcemap
 author: George Spake
 slug: debugging-sass-compass-chrome-dev-tools
+description: Disclaimer, I got this to work but these are notes from my first attempt so some of this may be overkill. A lot of the information I found was over a year old so I’m probably using some work-arounds that are no longer necessary. I’ll be back to make corrections as needed. If you notice anything wrong please let me know in the comments. For the most official info check out Working with CSS Preprocessors on the Google developer pages.
 ---
 
 ![Screenshot of Chrome Dev Tools](https://georgespake.com/wp-

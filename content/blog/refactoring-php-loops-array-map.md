@@ -9,6 +9,8 @@ tags:
 - php
 author: George Spake
 slug: refactoring-php-loops-array-map
+description: You have a PHP array that you need to change in some way so you loop through the
+  array, using a for-loop, alter each item, and push it in to a new array. Try map instead.
 ---
 
 Consider the following block of code:  

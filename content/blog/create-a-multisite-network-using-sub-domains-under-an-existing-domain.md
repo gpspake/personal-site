@@ -18,6 +18,8 @@ You want to set up a Multisite network with subdomains but the domain you want
 to use for your urls is not a WordPress site and will not be part of the
 network.
 
+<!--more--> 
+
 This doesn't seem like an unusual case; imagine you already have our non-
 WordPress primary website at mainsite.com and you want your multisite blogs to
 live at `blog1.mainsite.com` and `blog2.mainsite.com` etc…

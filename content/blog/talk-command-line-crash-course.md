@@ -19,6 +19,7 @@ slug: talk-command-line-crash-course
 
 These are the slides and notes from my Command Line Crash Course talk
 presented at DevMemphis on March 3, 2020
+<!--more--> 
 
 This was the first DevMemphis meetup that was streamed live and recorded but,
 unfortunately, because of some issues with the recording, the audio was

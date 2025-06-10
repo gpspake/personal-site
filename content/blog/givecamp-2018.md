@@ -21,7 +21,7 @@ designers, developers and database administrators to marketers and web
 strategists donate their time to provide solutions for non-profit
 organizations”_** A dozen nonprofits and more than 80 volunteers made this the
 largest GiveCamp Memphis yet.
-
+<!--more-->
 GiveCamp is a national event.**_“Since its inception in 2007, the GiveCamp
 program has provided benefits to hundreds of charities, worth millions of
 dollars of developer and designer time in services!”_**

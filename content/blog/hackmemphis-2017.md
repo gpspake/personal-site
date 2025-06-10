@@ -22,7 +22,7 @@ Foundation](http://www.memphistechnology.org/), is a different kind of
 hackathon where there's no pressure and teams are free to work on whatever
 they want. Some of the city's best developers, designers, makers, and tech
 leaders get together for a weekend to hang out and work on fun projects.
-
+<!--more-->
 Projects included a virtual reality cycling game, a working R2-D2 robot made
 from a plastic jar with 3d printed parts and a camera, a wifi enabled system
 for brewing beer, and a flappy bird game built with the Go programming

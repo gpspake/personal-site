@@ -19,7 +19,7 @@ at The Fedex Institute of Technology at the University of Memphis. This was a
 new location for the event, now on its seventh year , thanks to the recently
 established partnership between the University of Memphis and the Memphis
 Technology Foundation.
-
+<!--more-->
 This was my third year volunteering and I'm convinced it's one of the coolest,
 albeit underrated, events in Memphis. Several non-profit’s, including [Overton
 Park Conservancy](http://www.overtonpark.org/), [Cooper Young Garden

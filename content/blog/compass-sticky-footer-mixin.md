@@ -20,7 +20,7 @@ top of the window by default. In most cases there is enough content on the
 page to keep the footer at the bottom of the window but, if a page doesn't
 occupy the full height of the window, the footer is going to float right up to
 the bottom of the content creating an unattractive empty space below.
-
+<!--more-->
 There plenty of [blog posts and forum
 discussions](http://lmgtfy.com/?q=sticky+footer) about how to handle this with
 js or pure css. This is one of those things, though, that can get janky pretty

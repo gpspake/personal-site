@@ -15,6 +15,7 @@ tags:
 - svg
 author: George Spake
 slug: georgespake-com-redesign
+description: I’ve redesigned GeorgeSpake.com with the default WordPress TwentyTwenty theme.
 ---
 
 This site is long overdue for a redesign. It's been nearly five years but I've
@@ -25,7 +26,7 @@ I've updated the homepage design and added a showcase for
 migrated all of my content to the [Gutenberg
 editor](https://wordpress.org/gutenberg/) and the default WordPress Twenty
 Twenty theme.
-
+<!--more-->
 ## Choosing a theme
 
 > [Twenty Twenty](https://wordpress.org/themes/twentytwenty/)

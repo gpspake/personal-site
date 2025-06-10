@@ -10,6 +10,10 @@ tags:
 - theits
 author: George Spake
 slug: talk-building-electronic-raffle-campus-events
+description: A coworker and I worked
+  together to build an ID badge driven online raffle for campus events to
+  replace the antiquated ticket drawing and number calling method used
+  previously.
 ---
 
 [Tennessee Higher Ed IT Symposium - April 4,
